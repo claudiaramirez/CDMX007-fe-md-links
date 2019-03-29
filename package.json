@@ -1,4 +1,55 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "bin": "cli.js",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.0.0"
+  },
+  "description": "## Preámbulo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "meow": "^3.6.0",
+    "unique-random-array": "^1.0.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "htmlhint": "^0.10.1"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "cat-names.json"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "array",
+    "random",
+    "rand",
+    "animal",
+    "cats",
+    "kitten",
+    "names"
+  ],
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiaramirez/CDMX007-fe-md-links.git"
+  },
+  "author": "Claudia Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiaramirez/CDMX007-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/claudiaramirez/CDMX007-fe-md-links#readme"
 }
