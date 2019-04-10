@@ -8,7 +8,7 @@ Una libreria que ayudara a poder detectar links y conocer el status del mismo
 
   - Diagrama de flujo para resolver la parte tecnica de la libreria
 
-![Diagrama](./images/diagrama.png)
+![Diagrama](./images/diagrama.png) 
 
 ### Herramientas
 
