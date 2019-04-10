@@ -1,6 +1,6 @@
 {
   "name": "links-md-claudia-ramirez",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "mdlinks": "./cli.js"
   },

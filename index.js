@@ -1,3 +1,6 @@
+const { uniqueCount } = require("./uniqueCount");
+
+
 const fs = require('fs');
 const path = require('path');
 const colors = require('colors');
@@ -30,22 +33,6 @@ const RuteFind = (file) => { // funcion para URl absoluta
 let urlFile = RuteFind(accion[2]); // obtener la url que puso el usuario (URL path)
 var markdown = fs.readFileSync(urlFile).toString(); // obtener archivo en texto
 var links = markdownLinkExtractor(markdown); //obtener links
-//console.log(links)
-
-const uniqueCount = (links) => {
-  let arr = []
-  count = 0;
-  for (let i = 0; i < links.length; i++) {
-    for (let j = i + 1; j < links.length; j++) {
-      if (links[i].href == links[j].href) {
-        arr.push(links[j].href)
-        count++
-      }
-    }
-  }
-  let unique = links.length - count;
-  return unique;
-}
 //console.log(arr, count, countDos )
 //console.log(unique)
 const unique = uniqueCount(links);
