@@ -3,6 +3,7 @@ const path = require('path');
 const colors = require('colors');
 let markdownLinkExtractor = require('markdown-link-extractor'); 
 let urlExists = require('promised-url-exists');
+
 let options = {}; // opciones de usuario
 let successLink = 0; // links validos
 let failLink = 0; // links rotos
@@ -55,4 +56,3 @@ function validarUrl(listlinks){
                   .catch(error => { console.log(error); });
       });
 }
-

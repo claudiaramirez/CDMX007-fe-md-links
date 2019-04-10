@@ -1,13 +1,14 @@
 {
-  "name": "md-links",
+  "name": "links-md-claudia-ramirez",
   "version": "0.1.0",
   "bin": {
     "mdlinks": "./cli.js"
   },
   "devDependencies": {
-    "jest": "^24.5.0",
     "babel-core": "^6.26.3",
-    "babel-jest": "^24.0.0"
+    "babel-jest": "^24.0.0",
+    "ed-grid": "^2.8.1",
+    "jest": "^24.5.0"
   },
   "description": "## Preámbulo",
   "main": "index.js",
