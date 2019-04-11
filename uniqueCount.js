@@ -13,4 +13,4 @@ const uniqueCount = (links) => {
   let unique = links.length - count;
   return unique;
 };
-exports.uniqueCount = uniqueCount;
+module.exports.uniqueCount = uniqueCount;

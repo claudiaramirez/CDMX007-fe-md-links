@@ -47,8 +47,8 @@
     "names"
   ],
   "scripts": {
-    "htmlhint": "htmlhint src/*.html test/*.html",
-    "eslint": "eslint --ext .js src/ test/",
+    "htmlhint": "htmlhint *.html test/*.html",
+    "eslint": "eslint --ext .js test/",
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest"
   },

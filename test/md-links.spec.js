@@ -1,3 +1,5 @@
+import { RuteFind } from "../RuteFind";
+
 // const mdLinks = require('../index.js');
 
 // describe('mdLinks', () => {
@@ -7,13 +9,20 @@
 //   });
 
 // });
-const {
-  RuteFind
-} = require('./index.js');
+// const {
+//   RuteFind
+// } = 
+require('../RuteFind.js');
 
-describe('GetEmpleado', () => {
+describe('RuteFind', () => {
   test('Function', () => {
     expect(typeof RuteFind).toBe('function');
   });
 
 });
+
+  
+
+
+
+
